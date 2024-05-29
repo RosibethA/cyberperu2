@@ -9,99 +9,110 @@
     <link rel="shortcut icon" href="../assets/logofondoazuk.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 
-<body class="container-fluid">
+<body>
     <!--menu de navegacion y logo-->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand">
-                    <img src="../assets/logofondoazuk.png" alt="Logoperu" width="30" height="24" class="d-inline-block align-text-top">
-                    CyberPeru
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link active" href="./nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="./servicios.html">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="contactarnos.html">Contactarnos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="./noticias.html">Noticias</a>
-                        </li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand">
+                <img src="../assets/logofondoazuk.png" alt="Logoperu" width="30" height="24"
+                    class="d-inline-block align-text-top">
+                CyberPeru
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="./nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contactarnos.html">Contactarnos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./noticias.html">Noticias</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                    <li class="nav-item">
+                        <a href="./contactarnos.html" type="button" class="btn btn-dark"> Iniciar sesion</a>
+                    </li>
+                </ul>
+            </div>
             </div>
         </nav>
     </header>
-    <main>
+    <main class="container">
         <!--Banner de inicio-->
         <div class="banner">
-            <img src="../assets/Screenshot_15.png" class="mw-100" alt="bannerSeguridad">
+            <img src="../assets/bannerprincipal.jpg" class="mw-100" alt="bannerSeguridad">
         </div>
         <!-- Contenido de contacto y ubicacion -->
         <div class="row">
-        <section class="col-sm-4">
-            <h2>Contactar</h2>
-            <form action="" method="post" enctype="">
-                <div>
-                    <label for="nombreyapellido">Nombre y Apellido</label>
-                    <input type="text" name="nombreyapellido" id="nombreyapellido">
+            <section class="col-sm-4">
+                <h2>Contactar</h2>
+                <form method="post" enctype="">
+                    <div>
+                        <label for="nombreyapellido">Nombre y Apellido</label>
+                        <input type="text" name="nombreyapellido" id="nombreyapellido">
+                    </div>
+                    <div>
+                        <label for="email">emaill</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="mensaje"> Escribe aca tu mensaje</label>
+                        <textarea name="mensaje" id="escribirMensaje" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit">
+                        <input type="reset">
+                    </div>
+                </form>
+            </section>
+            <section class="col-sm-4">
+                <h2>Ubicacion</h2>
+                <div class="ratio ratio-16x9">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.881207760129!2d-77.03458789999999!3d-12.051693600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c80c682de3%3A0x17152161175cbcdd!2sPlaza%20Jos%C3%A9%20de%20San%20Mart%C3%ADn!5e0!3m2!1ses!2sse!4v1715793615288!5m2!1ses!2sse"
+                        width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div>
-                    <label for="email">emaill</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div>
-                    <label for="mensaje">Escribe tu mensaje</label>
-                    <textarea name="mensaje" id="" cols="30" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="submit">
-                    <input type="reset">
-                    <input type="button">
-                </div>
-            </form>
-        </section>
-        <section class="col-sm-4">
-            <h2>Ubicacion</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.881207760129!2d-77.03458789999999!3d-12.051693600000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c80c682de3%3A0x17152161175cbcdd!2sPlaza%20Jos%C3%A9%20de%20San%20Mart%C3%ADn!5e0!3m2!1ses!2sse!4v1715793615288!5m2!1ses!2sse" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <h4>Calle</h4>
-            <p>Jose a Quinones mz c L23</p>
-            <h4>Telefonos</h4>
-            <p>993459959 - 02464319574</p>
-        </section>
-        <section class="col-sm-4">
-            <h2>Nuestras redes sociales</h2>
-            <ul>
-                <li><a href="https://www.instagram.com/rosibethcv/">instagram </a></li>
-                <li><a href="https://www.instagram.com/rosibethcv/">Facebook </a></li>
-                <li><a href="https://www.instagram.com/rosibethcv/">Twitter </a></li>
-            </ul>
-        </section>
-    </div>
+                <h4>Calle</h4>
+                <p>Jose a Quinones mz c L23</p>
+                <h4>Telefonos</h4>
+                <p>993459959 - 02464319574</p>
+            </section>
+            <section class="col-sm-4">
+                <h3>Nuestras redes Sociales</h3>
+                <!-- Facebook -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i>Facebook</a>
+                <!-- Instagram -->
+                <a class="btn btn-primary btn-floating m-1" style="background-color: #026873" href="#!" role="button"><i
+                        class="fab fa-instagram"></i>Instagram</a>
+                <hr class="w-100 clearfix d-md-none" />
+            </section>
+        </div>
     </main>
     <!-- Footer -->
-    <footer class="text-center text-lg-start" style="background-color:#0dcaf0">
-        <!-- Grid container -->
+    <footer class="text-center text-lg-start">
         <div class="container p-4 pb-0">
-            <!-- Section: Links -->
-            <section class="">
+            <section>
                 <!--Grid row-->
                 <div class="row">
-                    <!-- Grid column -->
+                    <!-- Columna 1 -->
+                    <hr class="w-100 clearfix d-md-none" />
                     <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">
                             CyberPeru
@@ -110,46 +121,31 @@
                             Somos un equipo de expertos que podemos ayudarte con la ciberseguridad de tu empresa.
                             Orientados a la introduccion de los servicios a la nube.
                         </p>
+                        <hr class="w-100 clearfix d-md-none" />
                     </div>
-                    <!-- Grid column -->
-                    <hr class="w-100 clearfix d-md-none" />
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h6 class="text-uppercase mb-3 font-weight-bold">Inicio</h6>
-                        <p>
-                            <a>Nosotros</a>
-                        </p>
-                        <p>
-                            <a>Servicios</a>
-                        </p>
-                        <p>
-                            <a>Noticias</a>
-                        </p>
-                    </div>
-                    <hr class="w-100 clearfix d-md-none" />
-                    <hr class="w-100 clearfix d-md-none" />
-                    <!-- Grid column -->
+                    <!-- columna 2  -->
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Contactarnos</h6>
                         <p><i class="fa-solid fa-phone"></i> Lima Peru </p>
                         <p><i class="fas fa-envelope mr-3"></i> info@cyberperu.com</p>
                         <p><i class="fas fa-phone mr-3"></i> + 51 234 567 88</p>
                         <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                        <hr class="w-100 clearfix d-md-none" />
                     </div>
-                    <!-- Grid column -->
+                    <!-- Columna 3 -->
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
                         <h6 class="text-uppercase mb-4 font-weight-bold">Nuestas redes</h6>
                         <!-- Facebook -->
                         <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!"
                             role="button"><i class="fab fa-facebook-f"></i></a>
                         <!-- Twitter -->
-                        <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!"
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #04C4D9" href="#!"
                             role="button"><i class="fab fa-twitter"></i></a>
                         <!-- Google -->
-                        <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!"
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #023859" href="#!"
                             role="button"><i class="fab fa-google"></i></a>
                         <!-- Instagram -->
-                        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!"
+                        <a class="btn btn-primary btn-floating m-1" style="background-color: #026873" href="#!"
                             role="button"><i class="fab fa-instagram"></i></a>
                         <!-- Linkedin -->
                         <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!"
@@ -157,24 +153,26 @@
                         <!-- Github -->
                         <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="#!"
                             role="button"><i class="fab fa-github"></i></a>
+                        <hr class="w-100 clearfix d-md-none" />
                     </div>
                 </div>
             </section>
         </div>
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-            © 2024 Copyright:
+            <p>
+                © 2024 Copyright:</p>
         </div>
     </footer>
     <!--scrip para iconos  -->
-<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-    crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/6ca84e8e0d.js" crossorigin="anonymous"></script>
 </body>
 
