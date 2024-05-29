@@ -38,6 +38,15 @@ h5{
 .cardindex {
     background-color:#38A6A6;
     color: #f1f4f5;
-
+}
+.navbar-toggler{
+    color: #024959;
+    background-color: #2c6f7666;
+}
+p{
+    margin-top: 10px;
 }
 
+.card {
+    --bs-card-bg:#6c757d66;
+}
