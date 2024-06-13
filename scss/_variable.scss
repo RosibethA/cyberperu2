@@ -1,0 +1,5 @@
+$paletasecundaria:#023859, #98b6c8, #932e40 ;
+
+p{
+    color: nth($paletasecundaria: 2,);
+}

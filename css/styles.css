@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+header {
+  background-color: #023859;
+  position: sticky;
+  padding: 30px;
+  top: 0px;
+  z-index: 10;
+}
+
+.navbar {
+  --bs-navbar-active-color: #d2c4bc;
+  --bs-navbar-brand-color: #d2c4bc;
+}
+.navbar .navbar-toggler {
+  color: #024959;
+  background-color: rgba(44, 111, 118, 0.4);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #d2c4bc;
+  font-weight: 500;
+  font-style: normal;
+}
+body h1 {
+  font-family: "tahoma";
+  color: #023859;
+  text-align: center;
+}
+body h2 {
+  text-align: center;
+}
+body h5 {
+  font-style: oblique;
+}
+body p {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #026873;
+}
+
+.cardindex {
+  background-color: #38A6A6;
+  color: #fff;
+}
+
+.card {
+  --bs-card-bg: #6c757d66;
+  color: #023859;
+}
+.card h5 {
+  color: #fff6f0;
+}
+.card h5 i {
+  color: #023859;
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=styles.css.map */

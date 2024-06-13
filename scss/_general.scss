@@ -1,0 +1,46 @@
+header {
+    background-color: $colorTitulosPrincipales;
+    position: sticky;
+    padding: 30px;
+    top: 0px;
+    z-index: 10;
+}
+
+.navbar {
+    --bs-navbar-active-color: #d2c4bc;
+    --bs-navbar-brand-color: #d2c4bc;
+
+    .navbar-toggler {
+        color: #024959;
+        background-color: #2c6f7666;
+    }
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: $colorFondoPrincipal;
+    font-weight: 500;
+    font-style: normal;
+
+    h1 {
+        font-family: $titulosprincipales;
+        color: $colorTitulosPrincipales;
+        text-align: center;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    h5 {
+        font-style: oblique;
+    }
+
+    p {
+        margin-top: 10px;
+    }
+}
+
+footer {
+    background-color: $colorFooter;
+}
