@@ -28,9 +28,11 @@ body h1 {
   text-align: center;
 }
 body h2 {
+  font-family: "tahoma";
+  color: #023859;
   text-align: center;
 }
-body h5 {
+body h3 {
   font-style: oblique;
 }
 body p {
@@ -50,7 +52,7 @@ footer {
   --bs-card-bg: #6c757d66;
   color: #023859;
 }
-.card h5 {
+.card h3 {
   color: #fff6f0;
 }
 .card h5 i {
@@ -58,4 +60,8 @@ footer {
   margin-right: 20px;
 }
 
+.logo {
+  width: 30px;
+  height:24px ;
+}
 /*# sourceMappingURL=styles.css.map */
